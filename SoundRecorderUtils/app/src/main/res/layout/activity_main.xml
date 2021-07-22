@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical"
+    tools:context="com.sid.soundrecorderutils.MainActivity"
+    >
+
+    <Button
+        android:id="@+id/main_btn_record_sound"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="开始录音"
+    />
+    <Button
+        android:id="@+id/main_btn_send_sound"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="发送到服务器"
+    />
+    <Button
+        android:id="@+id/main_btn_play_sound"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="播放录音"
+     />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="服务器连接状态:"
+            android:background="#ccc"
+            android:gravity="center"
+            android:textSize="16sp"
+    />
+    <TextView
+            android:text="连接中"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_text_server_status"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="播放器连接状态:"
+            android:background="#ccc"
+            android:gravity="center"
+            android:textSize="16sp"
+    />
+    <TextView
+            android:text="状态"
+            android:layout_height="wrap_content" android:id="@+id/main_text_player_status"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送状态:"
+            android:background="#ccc"
+            android:gravity="center"
+            android:textSize="16sp"
+    />
+    <TextView
+            android:text="状态"
+            android:layout_height="wrap_content" android:id="@+id/main_text_send_status"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+    />
+
+
+</LinearLayout>
